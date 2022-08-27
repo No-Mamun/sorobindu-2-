@@ -1,0 +1,336 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-website{
+    width: 1120px;
+    margin: 0px auto;
+}
+/* Menu Css Start */
+.menu-section {
+    background: #34495e;
+    padding: 40px 0px 70px 0px;
+    
+    max-width: 100%;
+    position: relative;
+} 
+.menu-section ul{
+    text-align: center;
+}
+.menu-section ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+/* Style Dropdown Css Start */
+.pencil {
+    height: 20px;
+    width: 5px;
+    background: #fff;
+    position: absolute;
+    top: 84px;
+    left: 655px;
+}
+.pencil h1 {
+    color: #e67e22;
+    position: absolute;
+    top: 12px;
+    left: -6px;
+   
+}
+.pencil2 {
+    height: 20px;
+    width: 5px;
+    background: #fff;
+    position: absolute;
+    top: 84px;
+    left: 745px;
+}
+.pencil2 h1 {
+    color: #e67e22;
+    position: absolute;
+    top: 12px;
+    left: -6px;
+}
+.pencil3 {
+    height: 20px;
+    width: 5px;
+    background: #fff;
+    position: absolute;
+    top: 84px;
+    left: 825px;
+}
+.pencil3 h1 {
+    color: #e67e22;
+    position: absolute;
+    top: 12px;
+    left: -6px;
+}
+.pencil4 {
+    height: 20px;
+    width: 5px;
+    background: #fff;
+    position: absolute;
+    top: 84px;
+    left: 910px;
+}
+.pencil4 h1 {
+    color: #e67e22;
+    position: absolute;
+    top: 12px;
+    left: -6px;
+}
+/* Style Dropdown Css End */
+
+.menu-section ul li a {
+    padding: 10px 11px;
+    display: inline-block;
+    margin: 0px 10px;
+    background: #e67e22;
+    text-decoration: none;
+    color: #000;
+}
+/* Menu Css End */
+
+/* Service Css Start */
+.sec-1{
+    width: 100%;
+    height: auto;
+    background-color: #e67e22;
+}
+.sac-2{
+    width: 100%;
+    height: 100vh;
+    background-color: #3798da;
+}
+
+ .service-section{
+   
+  
+} 
+.sec-3{
+    width: 100%;
+    height: auto;
+    background-color: brown;
+}
+.service-section h1{
+    color: #3c5e3c;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+    border-bottom: 3px dashed #3c5e3c;
+
+}
+.content-box-1{
+    height: 300px;
+    width: 250px;
+    box-shadow: 0px 0px 10px 2px black;
+    position: relative;
+    border-radius: 15px;
+    margin-top: 82px;
+    margin-left: 353px;
+    box-sizing: border-box;
+    background: #fff;
+    display: inline-block;
+    transition: .5s;
+   
+}
+
+.content-box-1:hover{
+    background: #3798da;
+}
+.content-box2:hover{
+    background: #3798da;
+}
+.content-box3:hover{
+    background: #3798da;
+}
+.content {
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.content i.bi.bi-display {
+    font-size: 60px;
+    font-weight: bold;
+    color: #3c5e3c;
+}
+.content h2 {
+    font-size: 15px;
+    font-weight: 800;
+}
+.content-box2 {
+    height: 300px;
+    width: 250px;
+    box-shadow: 0px 0px 10px 2px black;
+    position: absolute;
+    top: 305px;
+    left: 520px;
+    border-radius: 15px;
+    margin-top: 40px;
+    left: 620px;
+    box-sizing: border-box;
+    background: #fff;
+    transition: .5s;
+}
+.content i.bi.bi-megaphone {
+    font-size: 60px;
+    font-weight: bold;
+    color: #3c5e3c;
+}
+.content-box3 {
+    height: 300px;
+    width: 250px;
+    box-shadow: 0px 0px 10px 2px black;
+    position: absolute;
+    top: 305px;
+    left: 885px;
+    border-radius: 15px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    background: #fff;
+    transition: .5s;
+}
+.content .fa-pen-ruler {
+    font-size: 50px;
+    font-weight: bold;
+    color: #3c5e3c;
+    padding: 22px;
+}
+/* Service Css End */
+
+/* Form Css Start */
+.form-footer{
+    width: 100%;
+    height: 400px;
+    background: #9b59b6;
+    position: relative;
+}
+.inner-section{
+    width: 600px;
+    height: auto;
+    margin: 0px auto;
+    position: relative;
+}
+.rounded1 {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border: 3px dotted #e67e22;
+    background: #000;
+    display: inline-block;
+    position: absolute;
+    top: 115px;
+    right: 0px;
+}
+.rounded3 {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid #e67e22;
+    background: center no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    top: 90px;
+    left: 255px;
+}
+.hover-div{
+    height: 100%;
+    width: 100%;
+}
+.hover-div img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+.name {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(104, 255, 0, 0.4);
+    border-radius: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .2s;
+}
+.hover-div:hover .name{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+
+}
+.name h2{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.rounded1:nth-child(1){
+    position: absolute;
+    top: 115px;
+    left: 0px;
+}
+.rounded1:nth-child(2){
+    position: absolute;
+    top: 20px;
+    left: 115px;
+}
+.rounded1:nth-child(3){}
+.rounded1:nth-child(4){
+    position: absolute;
+    top: 20px;
+    right: 115px;
+}
+.rounded1:nth-child(5){}
+.form-section {
+position: absolute;
+top: 200px;
+left: 690px;
+text-align: center;
+}
+input[type="text"] {
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+input[type="email"] {
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+a.btn {
+    border-style: solid;border-color:#384c70 #AED6F1 #273066 #00478B;border-width: 4px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+a.btn:hover {
+    border: 1px solid #000;
+    border-radius: 20px;
+    color: #000;
+    background: #fff;
+    padding: 5px 15px;
+}
+/* Form Css End */
+
+/* Main Footer Start */
+.main-footer{
+    background: #2c3e50;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+.main-footer p{
+    color: white;
+}
+
+/* Main Footer End */
